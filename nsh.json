@@ -1,0 +1,13 @@
+{
+  "name": "NSH Starter",
+  "id": "dev.nsh.starter",
+  "version": "0.1.0",
+  "build": 1,
+  "appearance": "system",
+  "resolve": {
+    "alias": {
+      "@": "./app"
+    }
+  },
+  "rust": ["crates/app"]
+}
